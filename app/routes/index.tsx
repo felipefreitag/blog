@@ -8,8 +8,8 @@ export default function Index() {
     <div className="w-screen h-screen bg-slate-200">
       <div className="max-w-md w-10/12 m-auto">
         <div className="text-center py-14">
-          <h1 className="font-sans text-2xl mb-5">{daysLeft} days left until game launch! &#127918;</h1>
-          <h6 className="font-sans text-lg">Target date: {targetDate.toLocaleDateString()}</h6>
+          <h1 className="font-sans text-2xl mb-14">{daysLeft} days left until game launch! &#127918;</h1>
+          <h6 className="font-sans text-lg">A link to the game will be here on {targetDate.toLocaleDateString()}</h6>
         </div>
         <div className="grid grid-cols-7 gap-4 justify-items-center">
           {[...Array(40)].map((x, i) =>
